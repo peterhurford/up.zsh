@@ -13,5 +13,5 @@ up(){                                 # Go up X directories (default 1)
   if [ -z "$d" ]; then
     d=..
   fi
-  go $d
+  cd $d
 }
