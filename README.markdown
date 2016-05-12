@@ -13,6 +13,11 @@ No more defining a `cd ...............` alias.  Just `up 15`.
 
 # Installation
 
+## Antigen
+
+If you use the [antigen](https://github.com/zsh-users/antigen) framework, add `antigen bundle peterhurford/up.zsh` to your .zshrc
+
+## oh-my-zsh
 Assuming you have [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), you can simply write
 
 ```bash
@@ -21,6 +26,10 @@ echo "plugins+=(up)" >> ~/.zshrc
 ```
 
 (Alternatively, you can place the `up` plugin in the `plugins=(...)` local manually.)
+
+## Zgen
+
+If you're using the [zgen](https://github.com/tarjoilija/zgen) framework, add `zgen load peterhurford/up.zsh` to your .zshrc with your other load commands.
 
 If you're lame and use bash, you can install this directly to your `~/.bash_profile`:
 
