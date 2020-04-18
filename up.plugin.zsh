@@ -14,7 +14,6 @@ up(){                                 # Go up X directories (default 1)
       do
         d=$d/..
       done
-    d=$(echo $d | sed 's/^\///')
-    cd $d
+    cd "${d#/}"
   fi
 }
